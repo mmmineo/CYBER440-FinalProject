@@ -6,6 +6,8 @@ All disks analyzed using Autopsy 4.14.0
 
 ### IT_2
 
+IP Address:
+
 #### Users
 
 - admin
@@ -47,7 +49,16 @@ Below are the most current devices on the network.
 
 ### Mayor2_2
 
+IP Address:
+
 #### Users
+
+- SoniaTheodore
+- HelenJackson
+- ShirleyAbdulla
+- Administrator
+- admin
+- Guest
 
 #### Emails
 
@@ -56,3 +67,16 @@ Below are the most current devices on the network.
 Lots of "Board Meeting" PDFs
 
 #### Interesting Programs
+
+#### IOC
+- HelenJackson's Desktop contains `RansomNote.txt` claiming system encryption and giving a bitcoin wallet number
+
+### SharedDrive
+
+IP Address:
+
+#### Data Contained
+
+
+
+#### IOC
