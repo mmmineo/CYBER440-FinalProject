@@ -75,6 +75,14 @@ Lots of "Board Meeting" PDFs
 
 IP Address:
 
+#### Commentary
+
+Personal data should not be kept on Shared Drives where it is accessible and possibly writeable by an arbitrary user.
+
+The same goes for HIPAA, FERPA, and other sensitive data. In this case, that is tax and police records.
+
+*Are the cat pictures encrypted files or actually cats?*
+
 #### Data Contained
 
 
