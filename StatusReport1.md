@@ -75,17 +75,13 @@ def logcount():
     print(str(count))
 ```
 2. What are the date/time ranges of the logs?
-
   - Begins: 2020-02-28 15:06:25.815
   - Ends: 2020-03-03 13:29:34.351
-
 3. Describe the types of log entries you have -- what systems generated the log entries? - **IMAP Mail Server**
-4. Describe the log file aggregator, if you can
+4. Describe the log file aggregator - **Elk Logs is a Linux-based aggregator**
 5. Identify any initial findings
-
   - GET/SENT for hundreds of UID flags
   - All traffic sourcing from .21? Need to confirm
-
 6. Identify any preliminary Indicators of Compromise
 
 ### Questions and Concerns
