@@ -25,26 +25,21 @@ _Describe the data that you have received -- provide a 1-slide BLUF perspective 
 
 ### Forensic Image Analysis
 1. How many different systems do you have forensic images for? **8**
-2. Verify the hashes provided, or provide a hash of the image you received
-  - IT_2:
-  - Mayor2_2:
-  - Mayor2_4:
-  - Police1_1:
-  - ShareDrive_1:
-  - TaxOffice_1:
-  - TaxOffice_2:
-  - TaxOffice_4:
-3. What are those systems used for? **IT_2 is used for system analysis, creating network topologies, and analyzing network traffic**
-4. What user accounts exist on each system?
-  - IT_2: admin, Administrator, DouglasAdams, RoyTremmeman
-  - Mayor2_2:
-  - Mayor2_4:
-  - Police1_1:
-  - ShareDrive_1:
-  - TaxOffice_1:
-  - TaxOffice_2:
-  - TaxOffice_4:
+2. Verify the hashes provided, or provide a hash of the image you received **See table**
+3. What are those systems used for? **See table**
+4. What user accounts exist on each system? **See table**
 5. What other stuff were you provided? **A .zip of ShareDrive?**
+
+System        | Purpose                         | User Accounts                                    | SHA256 Hash
+------------- | ------------------------------- | ------------------------------------------------ | -------------
+IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman | AE7F452E833FE73CBF47FE02004AAEC2FE31D9EE1958D3774B557DC565E3D809
+Mayor2_2      |                                 |                                                  | A2DF12A14DA8CC43736145FAEDAA56C91461F93BE2231BCE9DFB1AD9CD9196A7  
+Mayor2_4      |                                 |                                                  |
+Police1_1     |                                 |                                                  |
+ShareDrive_1  | Means of sharing office data    |                                                  |
+TaxOffice_1   |                                 |                                                  |
+TaxOffice_2   |                                 |                                                  |
+TaxOffice_4   |                                 |                                                  |
 
 ### Memory Forensics
 1. Which systems do you have a memory capture for?
