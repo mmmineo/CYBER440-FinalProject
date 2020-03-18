@@ -1,11 +1,11 @@
 # Status Report 1
 Team 1
-  - Brant Goings: Network, Disk, Memory
-  - Sarah Hume: Logs
-  - Ryan Coe: Disk
+  - Brant Goings: **Network, Disk, Memory**
+  - Sarah Hume: **Logs**
+  - Ryan Coe: **Disk**
   - Stephen Giacobe:
   - Parker Chambers:
-  - Matt Mineo: Memory
+  - Matt Mineo: **Memory**
 
 ### Data Description BLUF
 _Describe the data that you have received -- provide a 1-slide BLUF perspective of what you have received_
@@ -42,18 +42,18 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 2. Verify the hashes provided, or provide a hash of the image you received **See table**
 3. What are those systems used for? **See table**
 4. What user accounts exist on each system? **See table**
-5. What other stuff were you provided? **A .zip of ShareDrive?**
+5. What other stuff were you provided? **A .zip of ShareDrive_4?**
 
 System        | Purpose                         | User Accounts                                    | SHA256 Hash
 ------------- | ------------------------------- | ------------------------------------------------ | -------------
 IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman | AE7F452E833FE73CBF47FE02004AAEC2FE31D9EE1958D3774B557DC565E3D809
 Mayor2_2      |                                 |                                                  | A2DF12A14DA8CC43736145FAEDAA56C91461F93BE2231BCE9DFB1AD9CD9196A7  
-Mayor2_4      |                                 |                                                  |
-Police1_1     |                                 |                                                  |
-ShareDrive_1  | Means of sharing office data    |                                                  |
-TaxOffice_1   |                                 |                                                  |
-TaxOffice_2   |                                 |                                                  |
-TaxOffice_4   |                                 |                                                  |
+Mayor2_4      |                                 |                                                  | B4B124447C039F8B78835DDDBFEF0D9966D16A95B060D0FF99A4475CE064F630
+Police1_1     |                                 |                                                  | E06C600C851F54A3164EF1F04BF25C04393A06FA407760696539617DBF7EC469
+ShareDrive_1  | Means of sharing office data    |                                                  | B12CF8F1937CC9321AC721C8FB1CB0A15D853E3533E355EF0342CBF3A3E954FD
+TaxOffice_1   |                                 |                                                  | 77071E2BBAC8776CFE21540537DE9D1FB4CC2BB06A50BCE6F67F916F235A0F41
+TaxOffice_2   |                                 |                                                  | DD5D6948DE376321B8CCBE74DAAF31E6DACC2BD5546C352F7EB607BBFD737A3A
+TaxOffice_4   |                                 |                                                  | 3A0CD0EB6583C8AFC85E947BBDCD52D38E3268FE1217027B19E10D16543BBA45
 
 ### Memory Forensics
 1. Which systems do you have a memory capture for? **See table**
