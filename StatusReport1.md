@@ -24,11 +24,27 @@ _Describe the data that you have received -- provide a 1-slide BLUF perspective 
   - Ends on Mar 3, 2020 13:02:13.407194000 EST
 
 ### Forensic Image Analysis
-1. How many different systems do you have forensic images for?
+1. How many different systems do you have forensic images for? **8**
 2. Verify the hashes provided, or provide a hash of the image you received
-3. What are those systems used for?
+  - IT_2:
+  - Mayor2_2:
+  - Mayor2_4:
+  - Police1_1:
+  - ShareDrive_1:
+  - TaxOffice_1:
+  - TaxOffice_2:
+  - TaxOffice_4:
+3. What are those systems used for? **IT_2 is used for system analysis, creating network topologies, and analyzing network traffic**
 4. What user accounts exist on each system?
-5. What other stuff were you provided?
+  - IT_2: admin, Administrator, DouglasAdams, RoyTremmeman
+  - Mayor2_2:
+  - Mayor2_4:
+  - Police1_1:
+  - ShareDrive_1:
+  - TaxOffice_1:
+  - TaxOffice_2:
+  - TaxOffice_4:
+5. What other stuff were you provided? **A .zip of ShareDrive?**
 
 ### Memory Forensics
 1. Which systems do you have a memory capture for?
