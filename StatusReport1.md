@@ -30,12 +30,12 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
           os.system("sudo tshark -r " + name + " > tempfile.txt")
           with open("tempfile.txt") as file:
               for line in file:
-                  counter = counter + 1
+                  counter += 1
       print(str(counter))
   ```
 3. What times - beginning and ending?
-  - Begins on Feb 28, 2020 05:16:18.989733000 EST
-  - Ends on Mar 3, 2020 13:02:13.407194000 EST
+  - Begins: **Feb 28, 2020 05:16:18.989733000 EST**
+  - Ends: **Mar 3, 2020 13:02:13.407194000 EST**
 
 ### Forensic Image Analysis
 1. How many different systems do you have forensic images for? **8**
@@ -83,13 +83,13 @@ def logcount():
     print(str(count))
 ```
 2. What are the date/time ranges of the logs?
-  - Begins: 2020-02-28 15:06:25.815
-  - Ends: 2020-03-03 13:29:34.351
+  - Begins: **2020-02-28 15:06:25.815**
+  - Ends: **2020-03-03 13:29:34.351**
 3. Describe the types of log entries you have -- what systems generated the log entries? - **IMAP Mail Server**
 4. Describe the log file aggregator - **Elk Logs is a Linux-based aggregator**
 5. Identify any initial findings
-  - GET/SENT for hundreds of UID flags
-  - All traffic sourcing from .21? Need to confirm
+  - **GET/SENT for hundreds of UID flags**
+  - **All traffic sourcing from .21? Need to confirm**
 6. Identify any preliminary Indicators of Compromise
 
 ### Questions and Concerns
