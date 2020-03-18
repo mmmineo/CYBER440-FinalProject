@@ -1,24 +1,24 @@
 # Network Analysis Summary
 
-Brant Goings - CYBER 440 Final Project
+PCAPs analyzed using tshark and Python
 
 ## Devices
 
-IP Address | MAC Address | Suspected Role
----------- | ----------- | --------------
-192.168.100.1 | Dell_8f:09:45 | VMWare Console/Hypervisor
-192.168.100.4 | Dell_a1:82:00 | *Unknown*
-192.168.100.5 | Dell_a1:6a:dd | Host
-192.168.100.10 | VMware_0b:e9:e1 | Domain Controller
-192.168.100.11 | VMware_38:68:41 | Host
-192.168.100.12 | VMware_7e:ed:26 | Host
-192.168.100.13 | VMware_13:86:e5 | Host
-192.168.100.14 | VMware_45:d3:0e | Host
-192.168.100.17 | VMware_82:e1:2d | Host
-192.168.100.18 | VMware_75:b1:e1 | Host
-192.168.100.19 | VMware_0d:c1:c5 | Host
-192.168.100.20 | VMware_14:71:4f | Host
-192.168.100.21 | VMware_95:d5:c7 | Host
+IP Address      | MAC Address     | Suspected Role
+--------------- | --------------- | --------------
+192.168.100.1   | Dell_8f:09:45   | VMWare Console/Hypervisor
+192.168.100.4   | Dell_a1:82:00   | *Unknown*
+192.168.100.5   | Dell_a1:6a:dd   | Host
+192.168.100.10  | VMware_0b:e9:e1 | Domain Controller
+192.168.100.11  | VMware_38:68:41 | Host
+192.168.100.12  | VMware_7e:ed:26 | Host
+192.168.100.13  | VMware_13:86:e5 | Host
+192.168.100.14  | VMware_45:d3:0e | Host
+192.168.100.17  | VMware_82:e1:2d | Host
+192.168.100.18  | VMware_75:b1:e1 | Host
+192.168.100.19  | VMware_0d:c1:c5 | Host
+192.168.100.20  | VMware_14:71:4f | Host
+192.168.100.21  | VMware_95:d5:c7 | Host
 192.168.100.180 | VMware_01:bf:ed | Host
 
 ### 192.168.100.1

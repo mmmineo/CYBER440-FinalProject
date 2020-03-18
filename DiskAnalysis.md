@@ -1,8 +1,6 @@
 # Disk Analysis
 
-Brant Goings - CYBER 440
-
-All disks analyzed using Autopsy 4.14.0
+Disks analyzed using Autopsy 4.14.0
 
 ### IT_2
 

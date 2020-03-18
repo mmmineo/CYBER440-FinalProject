@@ -1,10 +1,10 @@
 # Status Report 1
 Team 1
-  - Brant Goings: Network, Disk
+  - Brant Goings: Network, Disk, Memory
   - Sarah Hume: Logs
   - Ryan Coe: Disk
   - Stephen:
-  - Parker: 
+  - Parker:
   - Matt M: Memory
 
 ### Data Description BLUF
@@ -48,16 +48,40 @@ TaxOffice_2   |                                 |                               
 TaxOffice_4   |                                 |                                                  |
 
 ### Memory Forensics
-1. Which systems do you have a memory capture for?
-2. What operating systems are each system?
-3. What times/days were the captures completed?
+1. Which systems do you have a memory capture for? **See table**
+2. What operating systems are each system? **See table**
+3. What times/days were the captures completed? **See table**
+
+System      | OS         | Date/Time
+----------- | ---------- | ---------
+IT_2        | Win7SP1x64 | 2020-03-01 19:54:10 UTC+0000
+Mayor1_3    |    |
+Mayor1_4    |    |
+Mayor2_3    |    |
+Mayor2_4    | Win7SP1x64 | 2020-03-03 17:58:51 UTC+0000
+WinServer_1 |    |
+Winserver_3 |    |
 
 ### Log Files
-1. How many log entries do you have?
+1. How many log entries do you have? **89,719**
+```
+def logcount():
+    count = 0
+    for file in filenames:
+        with open(file) as currentcsv:
+            csvreader = csv.reader(currentcsv)
+            for line in csvreader:
+                count += 1
+    print(str(count))
+```
 2. What are the date/time ranges of the logs?
-3. Describe the types of log entries you have -- what systems generated the log entries?
+  - Begins: 2020-02-28 15:06:25.815
+  - Ends: 2020-03-03 13:29:34.351
+3. Describe the types of log entries you have -- what systems generated the log entries? - **IMAP Mail Server**
 4. Describe the log file aggregator, if you can
 5. Identify any initial findings
+  - GET/SENT for hundreds of UID flags
+  - All traffic sourcing from .21? Need to confirm
 6. Identify any preliminary Indicators of Compromise
 
 ### Questions and Concerns
