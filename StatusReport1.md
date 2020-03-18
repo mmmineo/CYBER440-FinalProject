@@ -10,7 +10,15 @@ Team 1
 ### Data Description BLUF
 _Describe the data that you have received -- provide a 1-slide BLUF perspective of what you have received_
 
+The client provided our team with ~4 days of network traffic data, 8 disk images, 7 memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
 
+Network analysis shows large amounts of traffic travelling between the assumed Domain Controller at 192.168.100.10 and all other hosts on the network.
+
+Disk image analysis shows large amounts of PII on the network's shared drive.
+
+Memory dump analysis shows _possibly malicious processes_
+
+Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (mail server?) and other hosts.
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
