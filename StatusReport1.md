@@ -1,5 +1,11 @@
 # Status Report 1
-Team 1 - Brant, Sarah, Ryan C, Stephen, Parker, Matt M
+Team 1
+  - Brant Goings: Network, Disk
+  - Sarah Hume: Logs
+  - Ryan Coe: Disk
+  - Stephen:
+  - Parker: 
+  - Matt M: Memory
 
 ### Data Description BLUF
 _Describe the data that you have received -- provide a 1-slide BLUF perspective of what you have received_
