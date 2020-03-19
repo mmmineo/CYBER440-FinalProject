@@ -1,6 +1,6 @@
 # Status Report 1
 Team 1
-  - Brant Goings: **Network, Disk, Memory**
+  - Brant Goings: **Network, Disk, Memory, Logs**
   - Sarah Hume: **Logs**
   - Ryan Coe: **Disk**
   - Stephen Giacobe:
@@ -21,7 +21,7 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
-2. How many packets? **12,315,047** _Note: "Killed" exception thrown on 02-27-2020_1.4_
+2. How many packets? **12,315,047** _Note: "Killed" exception thrown on 02-27-2020_1.4 that may have affected total packet count._
   ```
   def countpack():
       counter = 0
@@ -37,7 +37,7 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
   - Ends: **Mar 3, 2020 13:02:13.407194000 EST**
 
 ### Forensic Image Analysis
-1. How many different systems do you have forensic images for? **8** _Although a few folders have multiple images in them_
+1. How many different systems do you have forensic images for? **9**
 2. Verify the hashes provided, or provide a hash of the image you received **See table**
 3. What are those systems used for? **See table**
 4. What user accounts exist on each system? **See table**
@@ -48,22 +48,24 @@ System        | Purpose                         | User Accounts
 IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
 Mayor2_2      |                                 | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
 Mayor2_4      |                                 |
-Police1_1     |                                 |
+Police1_1     |                                 | ThomasFord, administrator, admin, Guest, Administrator
 ShareDrive_1  | Means of sharing office data    |
 TaxOffice_1   |                                 |
 TaxOffice_2   |                                 |
 TaxOffice_4   |                                 |
 
-System        | SHA256 Hash
-------------- | ----------------------------------------------------------------
-IT_2          | AE7F452E833FE73CBF47FE02004AAEC2FE31D9EE1958D3774B557DC565E3D809
-Mayor2_2      | A2DF12A14DA8CC43736145FAEDAA56C91461F93BE2231BCE9DFB1AD9CD9196A7
-Mayor2_4      | B4B124447C039F8B78835DDDBFEF0D9966D16A95B060D0FF99A4475CE064F630
-Police1_1     | E06C600C851F54A3164EF1F04BF25C04393A06FA407760696539617DBF7EC469
-ShareDrive_1  | B12CF8F1937CC9321AC721C8FB1CB0A15D853E3533E355EF0342CBF3A3E954FD
-TaxOffice_1   | 77071E2BBAC8776CFE21540537DE9D1FB4CC2BB06A50BCE6F67F916F235A0F41
-TaxOffice_2   | DD5D6948DE376321B8CCBE74DAAF31E6DACC2BD5546C352F7EB607BBFD737A3A
-TaxOffice_4   | 3A0CD0EB6583C8AFC85E947BBDCD52D38E3268FE1217027B19E10D16543BBA45
+_Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against._
+System        | Computed SHA1 Hash                       | Stored SHA1 Hash                         | Verified     
+------------- | ---------------------------------------- | ---------------------------------------- |
+IT_2          | dfc19952a54e55878b6d7398b57bfe459da0780c | dfc19952a54e55878b6d7398b57bfe459da0780c | Yes
+Mayor2_2      | fdb24e04a874f7c7805acc0dd23f017e12eb32f2 | fdb24e04a874f7c7805acc0dd23f017e12eb32f2 | Yes
+Mayor2_4      | dbcc848d19af5af984b9f706c8e9a56599584387 | dbcc848d19af5af984b9f706c8e9a56599584387 | Yes
+Police1_1     | 2075a4d76add4ed77e52e7b377ab13c39e5f2600 | adbf81566253465b79774c2e84830b43de3ace70 | Claims Mismatch
+Police1_02-28 | 229eed99e5003cb4fae0927b7af7ec6ea7ea5a5d | 229eed99e5003cb4fae0927b7af7ec6ea7ea5a5d | Yes
+ShareDrive_1  | b4fa5d1466c86d25021843d3c3b383731719ff5d | b4fa5d1466c86d25021843d3c3b383731719ff5d | Yes
+TaxOffice_1   | _VMWare Disk_            | _VMWare Disk_ | _N/A_
+TaxOffice_2   | f9f83bc7cf65550d6ef769a2c1f11a9aa7b43c10 | f9f83bc7cf65550d6ef769a2c1f11a9aa7b43c10 | Yes
+TaxOffice_4   | 45d06f084c96825df49d5733860044f039595ef3 | 45d06f084c96825df49d5733860044f039595ef3 | Yes
 
 ### Memory Forensics
 1. Which systems do you have a memory capture for? **See table**
@@ -73,8 +75,8 @@ TaxOffice_4   | 3A0CD0EB6583C8AFC85E947BBDCD52D38E3268FE1217027B19E10D16543BBA45
 System      | OS         | Date/Time
 ----------- | ---------- | ---------
 IT_2        | Win7SP1x64 | 2020-03-01 19:54:10 UTC+0000
-Mayor1_3    |    |
-Mayor1_4    |    |
+Mayor1_3    | Win7SP1x64 | 2020-03-02 21:48:57 UTC+0000
+Mayor1_4    | Win7SP1x64 | 2020-03-03 17:58:12 UTC+0000
 Mayor2_3    |    |
 Mayor2_4    | Win7SP1x64 | 2020-03-03 17:58:51 UTC+0000
 WinServer_1 |    |
@@ -106,4 +108,6 @@ def logcount():
 
 ### Questions and Concerns
 1. Identify any questions you have for the client
+  - Many of the disk images have the standard Administrator account, but they also have admin and administrator, which are manually created accounts. Why?
+  - What is the naming scheme? Are Mayor1_3 and Mayor1_4 two different snapshots of the same machine or are they two completely different machines? If the latter, why is there a Mayor2_x?
 2. Identify any concerns or issues that your team has
