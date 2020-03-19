@@ -84,13 +84,13 @@ def logcount():
 2. What are the date/time ranges of the logs?
   - Begins: **2020-02-28 15:06:25.815**
   - Ends: **2020-03-03 13:29:34.351**
-3. Describe the types of log entries you have -- what systems generated the log entries? - **IMAP Mail Server**
+3. Describe the types of log entries you have -- what systems generated the log entries? **IMAP Mail Server**
 4. Describe the log file aggregator - **ELK Logging is a Linux-based aggregator**
 5. Identify any initial findings
   - **GET/SENT for hundreds of UID flags**
   - **All traffic sourcing from .21? _Need to confirm_**
 6. Identify any preliminary Indicators of Compromise
-  - **Unknown**
+  - **_Unknown_**
 
 ### Questions and Concerns
 1. Identify any questions you have for the client
