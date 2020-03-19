@@ -8,7 +8,6 @@ Team 1
   - Matt Mineo: **Memory**
 
 ### Data Description BLUF
-_Describe the data that you have received -- provide a 1-slide BLUF perspective of what you have received_
 
 The client provided our team with ~4 days of network traffic data, 8 disk images, 7 memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
 
@@ -22,7 +21,7 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
-2. How many packets? **12,315,047** _Note: "killed" exception was thrown on 02-27-2020_1.4_
+2. How many packets? **12,315,047** _Note: "Killed" exception thrown on 02-27-2020_1.4_
   ```
   def countpack():
       counter = 0
@@ -86,11 +85,12 @@ def logcount():
   - Begins: **2020-02-28 15:06:25.815**
   - Ends: **2020-03-03 13:29:34.351**
 3. Describe the types of log entries you have -- what systems generated the log entries? - **IMAP Mail Server**
-4. Describe the log file aggregator - **Elk Logs is a Linux-based aggregator**
+4. Describe the log file aggregator - **ELK Logging is a Linux-based aggregator**
 5. Identify any initial findings
   - **GET/SENT for hundreds of UID flags**
-  - **All traffic sourcing from .21? Need to confirm**
+  - **All traffic sourcing from .21? _Need to confirm_**
 6. Identify any preliminary Indicators of Compromise
+  - **Unknown**
 
 ### Questions and Concerns
 1. Identify any questions you have for the client
