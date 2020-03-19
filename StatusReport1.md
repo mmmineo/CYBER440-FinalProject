@@ -46,8 +46,8 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 
 System        | Purpose                         | User Accounts                                    | SHA256 Hash
 ------------- | ------------------------------- | ------------------------------------------------ | -------------
-IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman | AE7F452E833FE73CBF47FE02004AAEC2FE31D9EE1958D3774B557DC565E3D809
-Mayor2_2      |                                 |                                                  | A2DF12A14DA8CC43736145FAEDAA56C91461F93BE2231BCE9DFB1AD9CD9196A7  
+IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman, Guest | AE7F452E833FE73CBF47FE02004AAEC2FE31D9EE1958D3774B557DC565E3D809
+Mayor2_2      |                                 | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest | A2DF12A14DA8CC43736145FAEDAA56C91461F93BE2231BCE9DFB1AD9CD9196A7  
 Mayor2_4      |                                 |                                                  | B4B124447C039F8B78835DDDBFEF0D9966D16A95B060D0FF99A4475CE064F630
 Police1_1     |                                 |                                                  | E06C600C851F54A3164EF1F04BF25C04393A06FA407760696539617DBF7EC469
 ShareDrive_1  | Means of sharing office data    |                                                  | B12CF8F1937CC9321AC721C8FB1CB0A15D853E3533E355EF0342CBF3A3E954FD
