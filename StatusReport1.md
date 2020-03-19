@@ -37,7 +37,7 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
   - Ends: **Mar 3, 2020 13:02:13.407194000 EST**
 
 ### Forensic Image Analysis
-1. How many different systems do you have forensic images for? **8**
+1. How many different systems do you have forensic images for? **8** _Although a few folders have multiple images in them_
 2. Verify the hashes provided, or provide a hash of the image you received **See table**
 3. What are those systems used for? **See table**
 4. What user accounts exist on each system? **See table**
@@ -101,7 +101,7 @@ def logcount():
   - **GET/SENT for hundreds of UID flags**
   - **All traffic sourcing from .21? _Need to confirm_**
 
-### Identify any preliminary Indicators of Compromise
+### Indicators of Compromise
   - **_Unknown_**
 
 ### Questions and Concerns
