@@ -43,7 +43,7 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 4. What user accounts exist on each system? **See table**
 5. What other stuff were you provided? **A .zip of ShareDrive_4?**
 
-System Info
+#### System Info
 
 System        | Purpose                         | User Accounts                                    
 ------------- | ------------------------------- | ------------------------------------------------
@@ -58,17 +58,18 @@ TaxOffice_4   |                                 |
 
 _Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against._
 
-Hash Verification
+#### Hash Verification
 
-System        | Computed SHA1 Hash                       | Stored SHA1 Hash                         | Verified     
-------------- | ---------------------------------------- | ---------------------------------------- |
+
+Image         | Computed SHA1 Hash                        | Stored SHA1 Hash                        | Verified
+------------- | ---------------------------------------- | ---------------------------------------- | --------
 IT_2          | dfc19952a54e55878b6d7398b57bfe459da0780c | dfc19952a54e55878b6d7398b57bfe459da0780c | Yes
 Mayor2_2      | fdb24e04a874f7c7805acc0dd23f017e12eb32f2 | fdb24e04a874f7c7805acc0dd23f017e12eb32f2 | Yes
 Mayor2_4      | dbcc848d19af5af984b9f706c8e9a56599584387 | dbcc848d19af5af984b9f706c8e9a56599584387 | Yes
 Police1_1     | 2075a4d76add4ed77e52e7b377ab13c39e5f2600 | adbf81566253465b79774c2e84830b43de3ace70 | Claims Mismatch
 Police1_02-28 | 229eed99e5003cb4fae0927b7af7ec6ea7ea5a5d | 229eed99e5003cb4fae0927b7af7ec6ea7ea5a5d | Yes
 ShareDrive_1  | b4fa5d1466c86d25021843d3c3b383731719ff5d | b4fa5d1466c86d25021843d3c3b383731719ff5d | Yes
-TaxOffice_1   |          |  | 
+TaxOffice_1   | | |
 TaxOffice_2   | f9f83bc7cf65550d6ef769a2c1f11a9aa7b43c10 | f9f83bc7cf65550d6ef769a2c1f11a9aa7b43c10 | Yes
 TaxOffice_4   | 45d06f084c96825df49d5733860044f039595ef3 | 45d06f084c96825df49d5733860044f039595ef3 | Yes
 
