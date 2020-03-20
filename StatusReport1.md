@@ -55,6 +55,7 @@ TaxOffice_2   |                                 |
 TaxOffice_4   |                                 |
 
 _Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against._
+
 System        | Computed SHA1 Hash                       | Stored SHA1 Hash                         | Verified     
 ------------- | ---------------------------------------- | ---------------------------------------- |
 IT_2          | dfc19952a54e55878b6d7398b57bfe459da0780c | dfc19952a54e55878b6d7398b57bfe459da0780c | Yes

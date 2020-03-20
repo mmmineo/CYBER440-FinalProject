@@ -61,7 +61,18 @@ Date/Time: 2020-03-03 17:58:51 UTC+0000
 
 ---
 
-### Winserver_1
+### WinServer_1
+OS: Windows 10 64-bit
+Profile: --profile=Win10x64_17134
+Date/Time: 2020-02-28 16:50:33 UTC+0000
+
+Win10x64_17134, Win10x64_14393, Win10x64_10586, Win10x64_16299, Win2016x64_14393, Win10x64_15063
+
+### pslist - Interesting Services
+
+---
+
+### WinServer_3
 OS:
-Profile:
-Date/Time:
+Profile: --profile=Win10x64_17134
+Date/Time: 2020-03-02 22:03:27 UTC+0000
