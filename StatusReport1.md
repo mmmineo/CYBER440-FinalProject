@@ -58,7 +58,9 @@ TaxOffice_4   |                                 |
 
 #### Hash Verification
 
-Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against. TaxOffice_1 hash is on `Win_7_Template-flat.vmdk`
+Images were verified through FTK Imager against the provided hash file(s).
+
+Note: Police1_1 did not have a stored verfication file to run FTK against. TaxOffice_1 hash taken on whole folder.
 
 Image         | Computed SHA1 Hash                       | Verified
 ------------- | ---------------------------------------- | --------
@@ -68,7 +70,7 @@ Mayor2_4      | dbcc848d19af5af984b9f706c8e9a56599584387 | Yes
 Police1_1     | 2075a4d76add4ed77e52e7b377ab13c39e5f2600 | Claims Mismatch
 Police1_02-28 | 229eed99e5003cb4fae0927b7af7ec6ea7ea5a5d | Yes
 ShareDrive_1  | b4fa5d1466c86d25021843d3c3b383731719ff5d | Yes
-TaxOffice_1   | 2B671B53C035569CEAC354AAEB695551711D9A07 | N/A
+TaxOffice_1   | bfde6e0a6132b8e963cbdf2c5725cd621b98ed3f | N/A
 TaxOffice_2   | f9f83bc7cf65550d6ef769a2c1f11a9aa7b43c10 | Yes
 TaxOffice_4   | 45d06f084c96825df49d5733860044f039595ef3 | Yes
 
