@@ -43,6 +43,8 @@ Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (m
 4. What user accounts exist on each system? **See table**
 5. What other stuff were you provided? **A .zip of ShareDrive_4?**
 
+System Info
+
 System        | Purpose                         | User Accounts                                    
 ------------- | ------------------------------- | ------------------------------------------------
 IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
@@ -55,6 +57,8 @@ TaxOffice_2   |                                 |
 TaxOffice_4   |                                 |
 
 _Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against._
+
+Hash Verification
 
 System        | Computed SHA1 Hash                       | Stored SHA1 Hash                         | Verified     
 ------------- | ---------------------------------------- | ---------------------------------------- |
