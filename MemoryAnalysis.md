@@ -4,9 +4,9 @@ Memory dumps analyzed using Volatility
 
 ### IT_2
 
-OS: Windows 7 Service Pack 1 64-bit
-Profile: --profile=Win7SP1x64
-Date/Time: 2020-03-01 19:54:10 UTC+0000
+- OS: Windows 7 Service Pack 1 64-bit
+- Profile: --profile=Win7SP1x64
+- Date/Time: 2020-03-01 19:54:10 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -17,9 +17,9 @@ Date/Time: 2020-03-01 19:54:10 UTC+0000
 
 ### Mayor1_3
 
-OS: Windows 7 Service Pack 1 64-bit
-Profile: --profile=Win7SP1x64
-Date/Time: 2020-03-02 21:48:57 UTC+0000
+- OS: Windows 7 Service Pack 1 64-bit
+- Profile: --profile=Win7SP1x64
+- Date/Time: 2020-03-02 21:48:57 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -33,9 +33,9 @@ Date/Time: 2020-03-02 21:48:57 UTC+0000
 
 ### Mayor1_4
 
-OS: Windows 7 Service Pack 1 64-bit
-Profile: --profile=Win7SP1x64
-Date/Time: 2020-03-03 17:58:12 UTC+0000
+- OS: Windows 7 Service Pack 1 64-bit
+- Profile: --profile=Win7SP1x64
+- Date/Time: 2020-03-03 17:58:12 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -48,9 +48,9 @@ Date/Time: 2020-03-03 17:58:12 UTC+0000
 
 ### Mayor2_3
 
-OS: Windows 7 Service Pack 1 64-bit
-Profile: --profile=Win7SP1x64
-Date/Time: 2020-03-02 22:01:10 UTC+0000
+- OS: Windows 7 Service Pack 1 64-bit
+- Profile: --profile=Win7SP1x64
+- Date/Time: 2020-03-02 22:01:10 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -60,9 +60,9 @@ Date/Time: 2020-03-02 22:01:10 UTC+0000
 
 ### Mayor2_4
 
-OS: Windows 7 Service Pack 1 64-bit
-Profile: --profile=Win7SP1x64
-Date/Time: 2020-03-03 17:58:51 UTC+0000
+- OS: Windows 7 Service Pack 1 64-bit
+- Profile: --profile=Win7SP1x64
+- Date/Time: 2020-03-03 17:58:51 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -74,9 +74,9 @@ Date/Time: 2020-03-03 17:58:51 UTC+0000
 ---
 
 ### WinServer_1
-OS: Windows 2016 Server 64-bit
-Profile: --profile=Win2016x64_14393
-Date/Time: 2020-02-28 16:50:33 UTC+0000
+- OS: Windows 2016 Server 64-bit
+- Profile: --profile=Win2016x64_14393
+- Date/Time: 2020-02-28 16:50:33 UTC+0000
 
 #### pslist - Interesting Services
 
@@ -88,9 +88,9 @@ Date/Time: 2020-02-28 16:50:33 UTC+0000
 ---
 
 ### WinServer_3
-OS: Windows 2016 Server 64-bit
-Profile: --profile=Win2016x64_14393
-Date/Time: 2020-03-02 22:03:27 UTC+0000
+- OS: Windows 2016 Server 64-bit
+- Profile: --profile=Win2016x64_14393
+- Date/Time: 2020-03-02 22:03:27 UTC+0000
 
 #### pslist - Interesting Services
 
