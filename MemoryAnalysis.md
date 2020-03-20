@@ -46,6 +46,18 @@ Date/Time: 2020-03-03 17:58:12 UTC+0000
 
 ---
 
+### Mayor2_3
+
+OS: Windows 7 Service Pack 1 64-bit
+Profile: --profile=Win7SP1x64
+Date/Time: 2020-03-02 22:01:10 UTC+0000
+
+#### pslist - Interesting Services
+
+- Similar to previous Mayor hosts
+
+---
+
 ### Mayor2_4
 
 OS: Windows 7 Service Pack 1 64-bit
@@ -62,17 +74,26 @@ Date/Time: 2020-03-03 17:58:51 UTC+0000
 ---
 
 ### WinServer_1
-OS: Windows 10 64-bit
-Profile: --profile=Win10x64_17134
+OS: Windows 2016 Server 64-bit
+Profile: --profile=Win2016x64_14393
 Date/Time: 2020-02-28 16:50:33 UTC+0000
 
-Win10x64_17134, Win10x64_14393, Win10x64_10586, Win10x64_16299, Win2016x64_14393, Win10x64_15063
+#### pslist - Interesting Services
 
-### pslist - Interesting Services
+- svchost.exe: More than normal
+- hMailServer.ex: Mail server?
+- ismserv.exe: What's this?
+- dns.exe: DNS server?
 
 ---
 
 ### WinServer_3
-OS:
-Profile: --profile=Win10x64_17134
+OS: Windows 2016 Server 64-bit
+Profile: --profile=Win2016x64_14393
 Date/Time: 2020-03-02 22:03:27 UTC+0000
+
+#### pslist - Interesting Services
+
+- spaceman.exe: _Explore this process for malicious activity_
+- unsecapp.exe: _Explore this process for malicious activity_
+- Other services similar to WinServer_1

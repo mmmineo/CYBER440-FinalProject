@@ -1,0 +1,36 @@
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xfffffa8003cd39e0 System                    4      0    121     1418 ------      0 2020-03-03 17:29:10 UTC+0000                                 
+0xfffffa8004ca79d0 smss.exe                308      4      2       32 ------      0 2020-03-03 17:29:10 UTC+0000                                 
+0xfffffa80059b9520 csrss.exe               408    400     10      426      0      0 2020-03-03 17:29:18 UTC+0000                                 
+0xfffffa8005bfbb30 wininit.exe             452    400      3       79      0      0 2020-03-03 17:29:20 UTC+0000                                 
+0xfffffa8004cb5480 csrss.exe               476    464     12      240      1      0 2020-03-03 17:29:20 UTC+0000                                 
+0xfffffa800613d510 winlogon.exe            528    464      3      120      1      0 2020-03-03 17:29:21 UTC+0000                                 
+0xfffffa8006173a10 services.exe            560    452      7      235      0      0 2020-03-03 17:29:21 UTC+0000                                 
+0xfffffa8006157910 lsass.exe               576    452      9      656      0      0 2020-03-03 17:29:24 UTC+0000                                 
+0xfffffa8005c15b30 lsm.exe                 584    452      9      146      0      0 2020-03-03 17:29:24 UTC+0000                                 
+0xfffffa8005cda970 svchost.exe             676    560     10      362      0      0 2020-03-03 17:29:25 UTC+0000                                 
+0xfffffa8005d16760 vmacthlp.exe            736    560      3       60      0      0 2020-03-03 17:29:26 UTC+0000                                 
+0xfffffa8005d30060 svchost.exe             780    560      6      258      0      0 2020-03-03 17:29:26 UTC+0000                                 
+0xfffffa8005d8c850 svchost.exe             868    560     20      447      0      0 2020-03-03 17:29:27 UTC+0000                                 
+0xfffffa8005e07b30 svchost.exe             916    560     16      414      0      0 2020-03-03 17:29:27 UTC+0000                                 
+0xfffffa8005c2f600 svchost.exe             952    560     28      965      0      0 2020-03-03 17:29:27 UTC+0000                                 
+0xfffffa8005e43b30 svchost.exe             340    560     13      629      0      0 2020-03-03 17:29:29 UTC+0000                                 
+0xfffffa8005ee1750 svchost.exe             996    560     16      385      0      0 2020-03-03 17:29:31 UTC+0000                                 
+0xfffffa8005f6d630 spoolsv.exe            1116    560     12      285      0      0 2020-03-03 17:29:34 UTC+0000                                 
+0xfffffa8005fed9e0 svchost.exe            1172    560     17      309      0      0 2020-03-03 17:29:37 UTC+0000                                 
+0xfffffa80060cdb30 svchost.exe            1388    560     11      223      0      0 2020-03-03 17:29:39 UTC+0000                                 
+0xfffffa80060e1ad0 VGAuthService.         1476    560      3       89      0      0 2020-03-03 17:29:39 UTC+0000                                 
+0xfffffa80061eab30 vmtoolsd.exe           1584    560     12      305      0      0 2020-03-03 17:29:40 UTC+0000                                 
+0xfffffa80061c8570 dllhost.exe            1368    560     13      203      0      0 2020-03-03 17:29:44 UTC+0000                                 
+0xfffffa800640cb30 WmiPrvSE.exe           1300    676     12      227      0      0 2020-03-03 17:29:44 UTC+0000                                 
+0xfffffa80063d5b30 msdtc.exe              2052    560     12      148      0      0 2020-03-03 17:29:46 UTC+0000                                 
+0xfffffa800643d1d0 svchost.exe            2280    560     12      324      0      0 2020-03-03 17:29:50 UTC+0000                                 
+0xfffffa80065bcb30 taskhost.exe           2384    560      8      172      1      0 2020-03-03 17:29:52 UTC+0000                                 
+0xfffffa80062ed350 sppsvc.exe             2556    560      4      156      0      0 2020-03-03 17:29:54 UTC+0000                                 
+0xfffffa8005fac850 dwm.exe                3004    916      3       74      1      0 2020-03-03 17:30:42 UTC+0000                                 
+0xfffffa8006332520 explorer.exe           3040   2992     20      794      1      0 2020-03-03 17:30:42 UTC+0000                                 
+0xfffffa80066c2060 vmtoolsd.exe           2276   3040      7      131      1      0 2020-03-03 17:30:47 UTC+0000                                 
+0xfffffa8006314b30 thunderbird.ex         2364   3040     48      770      1      0 2020-03-03 17:30:51 UTC+0000                                 
+0xfffffa8003e77b30 SearchIndexer.         2492    560     13      657      0      0 2020-03-03 17:30:54 UTC+0000                                 
+0xfffffa8004389b30 MRCv120.exe            1928   3040      3      240      1      1 2020-03-03 17:57:51 UTC+0000                                 

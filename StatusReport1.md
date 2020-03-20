@@ -77,15 +77,15 @@ TaxOffice_4   | 45d06f084c96825df49d5733860044f039595ef3 | Yes
 2. What operating systems are each system? **See table**
 3. What times/days were the captures completed? **See table**
 
-System      | OS         | Date/Time
------------ | ---------- | ---------
-IT_2        | Win7SP1x64 | 2020-03-01 19:54:10 UTC+0000
-Mayor1_3    | Win7SP1x64 | 2020-03-02 21:48:57 UTC+0000
-Mayor1_4    | Win7SP1x64 | 2020-03-03 17:58:12 UTC+0000
-Mayor2_3    |    |
-Mayor2_4    | Win7SP1x64 | 2020-03-03 17:58:51 UTC+0000
-WinServer_1 |    |
-Winserver_3 |    |
+System      | OS                | Date/Time
+----------- | ----------------- | ---------
+IT_2        | Win7SP1x64        | 2020-03-01 19:54:10 UTC+0000
+Mayor1_3    | Win7SP1x64        | 2020-03-02 21:48:57 UTC+0000
+Mayor1_4    | Win7SP1x64        | 2020-03-03 17:58:12 UTC+0000
+Mayor2_3    | Win7SP1x64        | 2020-03-02 22:01:10 UTC+0000
+Mayor2_4    | Win7SP1x64        | 2020-03-03 17:58:51 UTC+0000
+WinServer_1 | Win2016x64_14393  | 2020-02-28 16:50:33 UTC+0000
+Winserver_3 | Win2016x64_14393  | 2020-03-02 22:03:27 UTC+0000
 
 ### Log Files
 1. How many log entries do you have? **89,719**
@@ -109,7 +109,7 @@ def logcount():
   - **All traffic sourcing from .21? _Need to confirm_**
 
 ### Indicators of Compromise
-  - **_Unknown_**
+  - spaceman.exe and unsecapp.exe on WinServer_3 memory dump
 
 ### Questions and Concerns
 1. Identify any questions you have for the client
