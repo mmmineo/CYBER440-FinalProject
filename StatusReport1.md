@@ -17,11 +17,11 @@ Disk image analysis shows large amounts of PII on the network's shared drive.
 
 Memory dump analysis shows _possibly malicious processes_
 
-Log analysis shows purely IMAP mail traffic travelling between 192.168.100.21 (mail server?) and other hosts.
+Log analysis shows _purely IMAP mail_ traffic travelling between _192.168.100.21 (mail server?)_ and other hosts.
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
-2. How many packets? **12,315,047** _Note: "Killed" exception thrown on 02-27-2020_1.4 that may have affected total packet count._
+2. How many packets? **12,315,047 - Note: "Killed" exception thrown on 02-27-2020_1.4 that may have affected total packet count.**
   ```
   def countpack():
       counter = 0
@@ -56,10 +56,9 @@ TaxOffice_1   |                                 |
 TaxOffice_2   |                                 |
 TaxOffice_4   |                                 |
 
-_Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against._
-
 #### Hash Verification
 
+Images were verified through FTK Imager against the provided hash file(s). Note: Police1_1 did not have a stored verfication file to run FTK against.
 
 Image         | Computed SHA1 Hash                       | Verified
 ------------- | ---------------------------------------- | --------
