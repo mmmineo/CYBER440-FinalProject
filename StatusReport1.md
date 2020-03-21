@@ -9,19 +9,22 @@ Team 1
 
 ### Data Description BLUF
 
-The client provided our team with ~4 days of network traffic data, 8 disk images, 7 memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
+The client provided our team with ~4 days of network traffic data, 9 disk images, 7 memory dumps, and about 90,000 log events. All of this data resides within the client's LAN.
 
 Network analysis shows large amounts of traffic travelling between the assumed Domain Controller at 192.168.100.10 and all other hosts on the network.
 
 Disk image analysis shows large amounts of PII on the network's shared drive.
 
-Memory dump analysis shows _possibly malicious processes_
+Memory dump analysis shows possibly malicious processes spaceman.exe and unsecapp.exe on WinServer_3. We are unsure of how these processes were initiated, but will continue to investigate.
 
 Log analysis shows _purely IMAP mail_ traffic travelling between _192.168.100.21 (mail server?)_ and other hosts.
 
 ### Network Data
 1. How many months/weeks/days/hours/minutes worth of network data do you have? **4 days, 7 hours, 45 minutes and 55 seconds**
-2. How many packets? **12,315,047 - Note: "Killed" exception thrown on 02-27-2020_1.4 that may have affected total packet count.**
+2. How many packets? **12,334,058**
+  - Note: "Killed" exception thrown on 02-27-2020_1.4 that may have affected total packet count.
+  - Running `tshark -r 02-27-2020_1.4 | wc` returns 1,565,197 lines/packets
+  - Running `countpack()` without `02-27-2020_1.4` returns 10,768,861
   ```
   def countpack():
       counter = 0
@@ -51,7 +54,7 @@ IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasA
 Mayor2_2      |                                 | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
 Mayor2_4      |                                 |
 Police1_1     |                                 | ThomasFord, administrator, admin, Guest, Administrator
-Police1_02-28 | | 
+Police1_02-28 | |
 ShareDrive_1  | Means of sharing office data    |
 TaxOffice_1   |                                 |
 TaxOffice_2   |                                 |
@@ -113,6 +116,7 @@ def logcount():
 
 ### Indicators of Compromise
   - spaceman.exe and unsecapp.exe on WinServer_3 memory dump
+  - Encrypted data on ShareDrive_4
 
 ### Questions and Concerns
 1. Identify any questions you have for the client
