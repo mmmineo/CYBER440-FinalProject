@@ -1,10 +1,10 @@
 # Status Report 1
 Team 1
-  - Brant Goings: **Network, Disk, Memory, Logs**
+  - Brant Goings: **Network, Disk, Memory, Logs, BLUF**
   - Sarah Hume: **Logs**
   - Ryan Coe: **Disk**
-  - Stephen Giacobe:
-  - Parker Chambers:
+  - Stephen Giacobe: **BLUF**
+  - Parker Chambers: **Disk**
   - Matt Mineo: **Memory**
 
 ### Data Description BLUF
@@ -48,17 +48,17 @@ Log analysis shows _purely IMAP mail_ traffic travelling between _192.168.100.21
 
 #### System Info
 
-System        | Purpose                         | User Accounts                                    
-------------- | ------------------------------- | ------------------------------------------------
-IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
-Mayor2_2      |                                 | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
-Mayor2_4      |                                 | admin, Administrator, HelenJackson, ShirleyAdbulla, SoniaTheodore, Guest
-Police1_1     |                                 | ThomasFord, administrator, admin, Guest, Administrator
+System        | Purpose                                 | User Accounts                                    
+------------- | --------------------------------------- | ------------------------------------------------
+IT_2          | Network Analysis and Topologies         | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
+Mayor2_2      |                                         | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
+Mayor2_4      |                                         | admin, Administrator, HelenJackson, ShirleyAdbulla, SoniaTheodore, Guest
+Police1_1     |                                         | ThomasFord, administrator, admin, Guest, Administrator
 Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
-ShareDrive_1  | Means of sharing office data    |
-TaxOffice_1   |                                 |
-TaxOffice_2   |                                 |
-TaxOffice_4   |                                 |
+ShareDrive_1  | Means of sharing office data            |
+TaxOffice_1   |                                         |
+TaxOffice_2   |                                         |
+TaxOffice_4   |                                         |
 
 #### Hash Verification
 
