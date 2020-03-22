@@ -19,6 +19,23 @@ GET/SENT for hundreds of UID flags
 Most traffic sourcing from .21
 Source IPs: 192.168.100.21 192.168.100.10 192.168.100.11 192.168.100.14 192.168.100.13 192.168.100.16 192.168.100.18 192.168.100.17
 
+**Mail Domain:** giacobeville.com
+
+**Users:**
+2/28
+* DavidMcFarlane@Giacobeville.com
+* DouglasAdams@giacobeville.com
+* HelenJackson@Giacobeville.com
+* MargaretMartinez@giacobeville.com
+* michaelscott@giacobeville.com
+* MikeGold@Giacobeville.com
+* MillyBond@Giacobeville.com
+* RonSwanson@giacobeville.com
+* RoyTenneman@Giacobeville.com
+* ShirleyAbdulla@giacobeville.com
+* soniatheodore@giacobeville.com
+* ThomasFord@giacobeville.com
+
 ## Elk Logs ##
 ## hmailserver_2020-02-28.log ##
 **Source IPs:**
