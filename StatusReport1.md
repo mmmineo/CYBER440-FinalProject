@@ -54,7 +54,7 @@ IT_2          | Network Analysis and Topologies | admin, Administrator, DouglasA
 Mayor2_2      |                                 | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
 Mayor2_4      |                                 |
 Police1_1     |                                 | ThomasFord, administrator, admin, Guest, Administrator
-Police1_02-28 | Repository of email addresses (28,000+) and... cat pictures? | ThomasFord, administrator, admin, Guest, Administrator
+Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
 ShareDrive_1  | Means of sharing office data    |
 TaxOffice_1   |                                 |
 TaxOffice_2   |                                 |
