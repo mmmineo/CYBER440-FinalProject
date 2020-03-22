@@ -75,6 +75,12 @@ Lots of "Board Meeting" PDFs
 
 ---
 
+### Mayor2_4
+
+
+
+---
+
 ### SharedDrive
 
 IP Address:
@@ -93,9 +99,21 @@ The same goes for HIPAA, FERPA, and other sensitive data. In this case, that is 
 
 ---
 
-### TaxOffice1
+### TaxOffice_1
 
 VMDK instead of standard .EO1
+
+---
+
+### TaxOffice_2
+
+
+
+---
+
+### TaxOffice_4
+
+
 
 ---
 
@@ -108,3 +126,11 @@ VMDK instead of standard .EO1
 - admin
 - Guest
 - Administrator
+
+#### Emails
+
+13,800+ on sqlite database, located at Users/ThomasFord/AppData/Roaming/Thunderbird/Profiles/4kydsg2w.default-release/places.sqlite-slack
+
+#### Interesting Files
+
+Tons of pictures of cats in the desktop, documents, downloads, and pictures locations.
