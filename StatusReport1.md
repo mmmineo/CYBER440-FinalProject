@@ -112,7 +112,16 @@ def logcount():
 4. Describe the log file aggregator - **ELK Logging is a Linux-based aggregator**
 5. Identify any initial findings
   - **GET/SENT for hundreds of UID flags**
-  - **All traffic sourcing from .21? _Need to confirm_**
+  - **Most traffic sourcing from .21?**
+  - Source IPs:
+192.168.100.21
+192.168.100.10
+192.168.100.11
+192.168.100.14
+192.168.100.13
+192.168.100.16
+192.168.100.18
+192.168.100.17
 
 ### Indicators of Compromise
   - spaceman.exe and unsecapp.exe on WinServer_3 memory dump
