@@ -55,7 +55,7 @@ Mayor2_2      |                                         | SoniaTheodore, HelenJa
 Mayor2_4      |                                         | admin, Administrator, HelenJackson, ShirleyAbdulla, SoniaTheodore, Guest
 Police1_1     |                                         | ThomasFord, administrator, admin, Guest, Administrator
 Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
-ShareDrive_1  | Means of sharing office data            |
+ShareDrive_1  | Means of sharing office data            | Contains shares using the domain Giacobeville to CommunityDev, giacobeville, InfoTech, MayorsOffice, PlanningAndZoning, Police, and TaxOffice
 TaxOffice_1   |                                         |
 TaxOffice_2   |                                         |
 TaxOffice_4   |                                         | admin, administrator, MikeGold, MillyBond, Guest, Administrator
