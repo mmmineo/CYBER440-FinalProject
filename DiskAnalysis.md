@@ -95,6 +95,8 @@ The same goes for HIPAA, FERPA, and other sensitive data. In this case, that is 
 
 #### Data Contained
 
+Deleted giacobeville share within the Giacobeville domain contains numberous emails exchanged between many different people. 
+
 #### IOC
 
 ---
