@@ -52,7 +52,7 @@ System        | Purpose                                 | User Accounts
 ------------- | --------------------------------------- | ------------------------------------------------
 IT_2          | Network Analysis and Topologies         | admin, Administrator, DouglasAdams, RoyTremmeman, Guest
 Mayor2_2      |                                         | SoniaTheodore, HelenJackson, ShirleyAbdulla, Administratror, admin, Guest
-Mayor2_4      |                                         | admin, Administrator, HelenJackson, ShirleyAbdulla, SoniaTheodore, Guest
+Mayor2_4      | Contains pdfs on organizational meetings| admin, Administrator, HelenJackson, ShirleyAbdulla, SoniaTheodore, Guest
 Police1_1     |                                         | ThomasFord, administrator, admin, Guest, Administrator
 Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
 ShareDrive_1  | Means of sharing office data            | Contains shares using the domain Giacobeville to CommunityDev, giacobeville, InfoTech, MayorsOffice, PlanningAndZoning, Police, and TaxOffice
