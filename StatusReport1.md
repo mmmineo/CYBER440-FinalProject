@@ -56,7 +56,7 @@ Mayor2_4      | Contains pdfs on organizational meetings| admin, Administrator, 
 Police1_1     |                                         | ThomasFord, administrator, admin, Guest, Administrator
 Police1_02-28 | Repository of email addresses (13,800+) | ThomasFord, administrator, admin, Guest, Administrator
 ShareDrive_1  | Means of sharing office data            | Contains shares using the domain Giacobeville to CommunityDev, giacobeville, InfoTech, MayorsOffice, PlanningAndZoning, Police, and TaxOffice
-TaxOffice_1   |                                         |
+TaxOffice_1   | Unable to open .vmdk as of now          | Unable to open .vmdk as of now
 TaxOffice_2   |                                         |
 TaxOffice_4   | Contains spreadsheets with tax information| admin, administrator, MikeGold, MillyBond, Guest, Administrator
 
