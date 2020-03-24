@@ -115,7 +115,8 @@ VMDK instead of standard .EO1
 
 ### TaxOffice_4
 
-
+Users/MillyBond/Documents/Tax-info.xlsx contains a spreadsheet of tax information 
+Users/MikeGold/Documents/Tax-info.xlsx contains the same spreadsheet
 
 ---
 
