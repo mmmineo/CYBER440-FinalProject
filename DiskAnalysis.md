@@ -115,6 +115,10 @@ VMDK instead of standard .EO1
 - MikeGold
 - MillyBond
 
+Users/MikeGold/Documents/  contains 42 images of cats
+Users/MikeGold/Documents/ also contains Tax-info.xlsx
+Users/MikeGold/Desktop/ contains more pictures of cats
+
 ---
 
 ### TaxOffice_4
