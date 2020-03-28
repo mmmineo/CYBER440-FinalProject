@@ -95,7 +95,7 @@ The same goes for HIPAA, FERPA, and other sensitive data. In this case, that is 
 
 #### Data Contained
 
-Deleted giacobeville share within the Giacobeville domain contains numberous emails exchanged between many different people. 
+Deleted giacobeville share within the Giacobeville domain contains numberous emails exchanged between many different people.
 
 #### IOC
 
@@ -104,6 +104,9 @@ Deleted giacobeville share within the Giacobeville domain contains numberous ema
 ### TaxOffice_1
 
 VMDK instead of standard .EO1
+
+#### Users
+ 
 
 ---
 
@@ -129,7 +132,7 @@ Users/MikeGold/Desktop/ contains more pictures of cats
 - MikeGold
 - MillyBond
 
-Users/MillyBond/Documents/Tax-info.xlsx contains a spreadsheet of tax information 
+Users/MillyBond/Documents/Tax-info.xlsx contains a spreadsheet of tax information
 Users/MikeGold/Documents/Tax-info.xlsx contains the same spreadsheet
 
 ---

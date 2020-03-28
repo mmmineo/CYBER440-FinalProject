@@ -71,6 +71,9 @@ Memory dumps analyzed using Volatility
 - dwm.exe: What is it?
 - svchost.exe: More than normal
 
+#### hashdump - Cracking Passwords
+ - Administrator: LIVERPO
+
 ---
 
 ### WinServer_1
