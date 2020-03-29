@@ -1,4 +1,4 @@
-# Status Report 1
+# Status Report 2
 Team 1
   - Brant Goings: **Network, Disk, Memory, Logs, BLUF**
   - Sarah Hume: **Logs**
