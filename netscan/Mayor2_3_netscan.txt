@@ -1,0 +1,96 @@
+Offset(P)          Proto    Local Address                  Foreign Address      State            Pid      Owner          Created
+0x13d26a880        UDPv4    0.0.0.0:5355                   *:*                                   240      svchost.exe    2020-03-02 21:30:36 UTC+0000
+0x13d4d1b60        UDPv4    0.0.0.0:0                      *:*                                   320      svchost.exe    2020-03-02 21:30:28 UTC+0000
+0x13d5ad3f0        UDPv4    0.0.0.0:3702                   *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d5b3010        UDPv4    0.0.0.0:3702                   *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d5b3010        UDPv6    :::3702                        *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d5d0bf0        UDPv4    127.0.0.1:57349                *:*                                   944      svchost.exe    2020-03-02 21:30:32 UTC+0000
+0x13d5ddec0        UDPv4    0.0.0.0:5355                   *:*                                   240      svchost.exe    2020-03-02 21:30:36 UTC+0000
+0x13d5ddec0        UDPv6    :::5355                        *:*                                   240      svchost.exe    2020-03-02 21:30:36 UTC+0000
+0x13d5ee7e0        UDPv4    0.0.0.0:123                    *:*                                   320      svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d5efd70        UDPv4    0.0.0.0:123                    *:*                                   320      svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d5efd70        UDPv6    :::123                         *:*                                   320      svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13d487450        TCPv4    0.0.0.0:445                    0.0.0.0:0            LISTENING        4        System         
+0x13d487450        TCPv6    :::445                         :::0                 LISTENING        4        System         
+0x13d488da0        TCPv4    0.0.0.0:49174                  0.0.0.0:0            LISTENING        1816     svchost.exe    
+0x13d590900        TCPv4    127.0.0.1:49213                0.0.0.0:0            LISTENING        2916     thunderbird.ex 
+0x13d529010        TCPv4    192.168.100.11:49242           192.168.100.10:445   CLOSED           4        System         
+0x13d530680        TCPv6    -:0                            8867:6:80fa:ffff:8867:6:80fa:ffff:0 CLOSED           944      svchost.exe    
+0x13d5decf0        TCPv4    127.0.0.1:49214                127.0.0.1:49213      ESTABLISHED      2916     thunderbird.ex 
+0x13d5e86f0        TCPv4    192.168.100.11:49220           192.168.100.19:443   ESTABLISHED      1724     2020-01-02-Re- 
+0x13d5e9520        TCPv4    127.0.0.1:49213                127.0.0.1:49214      ESTABLISHED      2916     thunderbird.ex 
+0x13da1d6f0        UDPv4    0.0.0.0:3702                   *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13da1d6f0        UDPv6    :::3702                        *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13da24b30        UDPv4    0.0.0.0:500                    *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13da24b30        UDPv6    :::500                         *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13da31b30        UDPv4    0.0.0.0:4500                   *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13da31b30        UDPv6    :::4500                        *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13da3c010        UDPv4    0.0.0.0:0                      *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13da67ec0        UDPv4    127.0.0.1:60587                *:*                                   240      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13daae490        UDPv4    0.0.0.0:3702                   *:*                                   1280     svchost.exe    2020-03-02 21:30:31 UTC+0000
+0x13dabd960        UDPv4    0.0.0.0:0                      *:*                                   320      svchost.exe    2020-03-02 21:30:28 UTC+0000
+0x13dabd960        UDPv6    :::0                           *:*                                   320      svchost.exe    2020-03-02 21:30:28 UTC+0000
+0x13dc8c440        UDPv4    0.0.0.0:0                      *:*                                   240      svchost.exe    2020-03-02 21:30:22 UTC+0000
+0x13dc8c440        UDPv6    :::0                           *:*                                   240      svchost.exe    2020-03-02 21:30:22 UTC+0000
+0x13dcfe560        UDPv4    0.0.0.0:0                      *:*                                   564      lsass.exe      2020-03-02 21:30:25 UTC+0000
+0x13dd58ec0        UDPv4    0.0.0.0:4500                   *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13dd6b8e0        UDPv4    0.0.0.0:0                      *:*                                   564      lsass.exe      2020-03-02 21:30:25 UTC+0000
+0x13dd6b8e0        UDPv6    :::0                           *:*                                   564      lsass.exe      2020-03-02 21:30:25 UTC+0000
+0x13dd6fec0        UDPv4    0.0.0.0:500                    *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13ddc8010        UDPv4    0.0.0.0:0                      *:*                                   564      lsass.exe      2020-03-02 21:30:24 UTC+0000
+0x13ddd5860        UDPv4    0.0.0.0:0                      *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13ddd5860        UDPv6    :::0                           *:*                                   944      svchost.exe    2020-03-02 21:30:25 UTC+0000
+0x13dedd010        UDPv6    fe80::74d6:5724:66e3:4ad6:1900 *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13df89770        UDPv4    0.0.0.0:61541                  *:*                                   1280     svchost.exe    2020-03-02 21:30:26 UTC+0000
+0x13df8f5a0        UDPv4    0.0.0.0:0                      *:*                                   564      lsass.exe      2020-03-02 21:30:24 UTC+0000
+0x13df8f5a0        UDPv6    :::0                           *:*                                   564      lsass.exe      2020-03-02 21:30:24 UTC+0000
+0x13dff6940        UDPv4    127.0.0.1:50187                *:*                                   564      lsass.exe      2020-03-02 21:30:25 UTC+0000
+0x13e07d870        UDPv4    0.0.0.0:0                      *:*                                   1816     svchost.exe    2020-03-02 21:30:29 UTC+0000
+0x13e07d870        UDPv6    :::0                           *:*                                   1816     svchost.exe    2020-03-02 21:30:29 UTC+0000
+0x13e07dd70        UDPv4    0.0.0.0:0                      *:*                                   1816     svchost.exe    2020-03-02 21:30:29 UTC+0000
+0x13e128950        UDPv6    fe80::74d6:5724:66e3:4ad6:59404 *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13e129cc0        UDPv4    0.0.0.0:61542                  *:*                                   1280     svchost.exe    2020-03-02 21:30:26 UTC+0000
+0x13e129cc0        UDPv6    :::61542                       *:*                                   1280     svchost.exe    2020-03-02 21:30:26 UTC+0000
+0x13dc589f0        TCPv4    0.0.0.0:5357                   0.0.0.0:0            LISTENING        4        System         
+0x13dc589f0        TCPv6    :::5357                        :::0                 LISTENING        4        System         
+0x13dc72c10        TCPv4    192.168.100.11:139             0.0.0.0:0            LISTENING        4        System         
+0x13dcd8630        TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        944      svchost.exe    
+0x13dcd8630        TCPv6    :::49154                       :::0                 LISTENING        944      svchost.exe    
+0x13dd79e40        TCPv4    0.0.0.0:49172                  0.0.0.0:0            LISTENING        548      services.exe   
+0x13dd79e40        TCPv6    :::49172                       :::0                 LISTENING        548      services.exe   
+0x13ddf6980        TCPv4    0.0.0.0:49173                  0.0.0.0:0            LISTENING        564      lsass.exe      
+0x13ddf6980        TCPv6    :::49173                       :::0                 LISTENING        564      lsass.exe      
+0x13df2cef0        TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        780      svchost.exe    
+0x13df4dc60        TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        780      svchost.exe    
+0x13df4dc60        TCPv6    :::135                         :::0                 LISTENING        780      svchost.exe    
+0x13df6a5c0        TCPv4    0.0.0.0:49172                  0.0.0.0:0            LISTENING        548      services.exe   
+0x13df91d80        TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        944      svchost.exe    
+0x13df9c670        TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        440      wininit.exe    
+0x13dfa4b60        TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        440      wininit.exe    
+0x13dfa4b60        TCPv6    :::49152                       :::0                 LISTENING        440      wininit.exe    
+0x13dfd2780        TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        868      svchost.exe    
+0x13dfe94a0        TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        868      svchost.exe    
+0x13dfe94a0        TCPv6    :::49153                       :::0                 LISTENING        868      svchost.exe    
+0x13dddc010        TCPv4    192.168.100.11:49250           192.168.100.10:445   CLOSED           4        System         
+0x13dde3a40        TCPv6    -:0                            9839:cd03:80fa:ffff:9839:cd03:80fa:ffff:0 CLOSED           564      lsass.exe      
+0x13ddf38a0        TCPv4    -:0                            72.54.224.3:0        CLOSED           564      lsass.exe      
+0x13ddf84e0        TCPv4    192.168.100.11:49249           192.168.100.10:445   CLOSED           4        System         
+0x13de33cf0        TCPv4    -:49245                        192.168.100.4:5357   CLOSED           320      svchost.exe    
+0x13de3a6f0        TCPv4    192.168.100.11:49215           192.168.100.10:143   ESTABLISHED      2916     thunderbird.ex 
+0x13e7db300        UDPv4    192.168.100.11:138             *:*                                   4        System         2020-03-02 21:30:22 UTC+0000
+0x13e7e2300        UDPv4    192.168.100.11:137             *:*                                   4        System         2020-03-02 21:30:22 UTC+0000
+0x13e7ad680        TCPv4    192.168.100.11:49217           192.168.100.10:143   CLOSED           2916     thunderbird.ex 
+0x13eecc010        TCPv4    0.0.0.0:49173                  0.0.0.0:0            LISTENING        564      lsass.exe      
+0x13efd5b10        TCPv4    0.0.0.0:49174                  0.0.0.0:0            LISTENING        1816     svchost.exe    
+0x13efd5b10        TCPv6    :::49174                       :::0                 LISTENING        1816     svchost.exe    
+0x13ed92cf0        TCPv4    -:49243                        192.168.100.20:139   CLOSED           4        System         
+0x13fa2d010        UDPv4    192.168.100.11:1900            *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13fad6010        UDPv6    ::1:1900                       *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13fc8cec0        UDPv4    127.0.0.1:59407                *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13fd46210        UDPv4    127.0.0.1:1900                 *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13fda99b0        UDPv6    ::1:59405                      *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13fdb6680        UDPv4    192.168.100.11:59406           *:*                                   1280     svchost.exe    2020-03-02 21:49:59 UTC+0000
+0x13f8a17f0        TCPv4    -:49247                        192.168.100.5:5357   CLOSED           320      svchost.exe    
+0x13faebcf0        TCPv4    192.168.100.11:49227           192.168.100.10:445   ESTABLISHED      4        System         
+0x13fc80600        TCPv4    127.0.0.1:5357                 127.0.0.1:49230      CLOSED           4        System         
+0x13fd7c6b0        TCPv4    -:49246                        192.168.100.4:5357   CLOSED           320      svchost.exe    
