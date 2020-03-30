@@ -1,6 +1,6 @@
 # Status Report 2
 Team 1
-  - Brant Goings: **Network, Disk, Memory, Logs, BLUF**
+  - Brant Goings: **Network, Disk, Memory, BLUF**
   - Sarah Hume: **Logs**
   - Ryan Coe: **Disk**
   - Stephen Giacobe: **BLUF**
@@ -11,7 +11,7 @@ Team 1
 
 After analyzing network captures and memory dumps, our team determined that multiple machines either don't exist at all or are on different IP addresses according to the networking charts provided by IT. This may seem like a small matter, but if IT doesn't keep regular track of their network, attackers could infiltrate and add/remove machines at will without anybody else noticing.
 
-Provide a 1-slide BLUF perspective with your understanding of what has happened. Identify the structured analytic method that you're using to organize the evidence you've found. Remember to keep it at a high level, sufficient for the CEO of your client, but don't "dumb it down."
+_Needs more_
 
 ### Network Data ###
 - Is your network data contiguous? If not, what does your network data cover? **Yes, the network devices are all found on the 192.168.100.0 subnet. However, the information found within the disk images doesn't seem to line up with the information found in the network captures. See table for more details.**
